@@ -1,0 +1,575 @@
+body{
+  overflow:scroll;
+  background-color: #fcf5ef;
+}
+
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 25px 42px 40px 300px;
+}
+
+.header{
+  grid-row: 2 / 3;
+  grid-column: 2 / 5;
+  justify-self: center;
+}
+
+.image{
+  grid-row: 4 /5;
+  grid-column: 3 / 4;
+  justify-self: center;
+  margin-top: -15%;
+
+}
+
+.item{
+  font-family: garamond;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #a408ff;
+}
+
+.item1{
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  justify-self: left;
+  margin-left: 50px;
+}
+
+.item2{
+  grid-row: 3 / 4;
+  grid-column: 4 / 5;
+  justify-self: right;
+  margin-right: 50px;
+
+}
+
+.button{
+  text-decoration: none;
+  color:#a408ff;
+  font-family: poppins;
+  font-weight: bold;
+  border: solid;
+  border-radius: 150px;
+  cursor: pointer;
+}
+
+.w{
+  padding: 10%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.com{
+  padding: 6%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.con{
+  padding: 10%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.container2{
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 200px 50px 200px 50px 230px 1fr 1fr;
+  margin-top: 1%;
+}
+
+.works{
+  grid-column: 3/4;
+}
+
+.commissions{
+  grid-column: 5/6;
+}
+
+.contact{
+  grid-column: 7/8;
+}
+
+.s1{
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+
+.s2{
+  grid-column: 6/7;
+  grid-row: 1/2;
+  margin-left: 125%
+}
+
+.container3{
+  margin-top: 2%;
+  display:grid;
+  grid-template-columns: 1fr 200px 600px 200px 1fr;
+  grid-template-rows: 1fr 50px;
+}
+
+.item3{
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+
+.item4{
+  grid-row:1/2;
+  grid-column: 4/5;
+  justify-self: end;
+}
+
+.purple-line {
+  grid-row: 2/5;
+  grid-column: 2/5;
+  width: 100%;
+  border-top: 2px solid #a408ff
+}
+
+.container4{
+  display:grid;
+  grid-template-columns: 1fr 1fr 50px 500px 50px 1fr 1fr;
+}
+
+.title{
+  font-family: garamond;
+  font-size: 4em;
+  font-weight: lighter;
+  color:#a408ff;
+  margin: -5%;
+  margin-left: 3%;
+}
+
+.featured{
+  grid-column: 4/5;
+  justify-self: center;
+  align-self: center;
+}
+
+.s3{
+  grid-column: 3/4;
+  grid-row: 1/2;
+  justify-self: end;
+}
+
+.s4{
+  grid-column: 5/6;
+  grid-row: 1/2;
+}
+
+.container5{
+  display: grid;
+  grid-template-columns: 1fr 600px 500px 1fr ;
+  grid-template-rows: 500px 250px 300px;
+}
+
+.subtitle{
+  font-family: garamond;
+  font-size: 60px;
+  color:#a408ff;
+}
+
+.description{
+  font-family: poppins;
+  padding-top:10px;
+  max-width: 350px;
+}
+
+.logodesign{
+  margin-top: 15%;
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.hoku{
+  justify-self: center;
+  margin-top: 10%;
+  grid-column: 2/3;
+}
+
+.animation{
+  padding-top: 5%;
+  margin-left: -5%;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  justify-self: center;
+}
+
+.ducks{
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+
+.cev{
+  grid-row:3/4;
+  grid-column: 2/3;
+  justify-self: center;
+  margin-top: 5%;
+}
+
+.streamgraphics{
+  grid-row: 3/4;
+  grid-column: 3/4;
+  margin-top: 5%;
+}
+
+.container6{
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: 1fr 100px 500px 100px 1fr;
+  grid-template-rows: 100px
+}
+
+.seemore{
+  grid-row: 1/2;
+  grid-column: 3/4;
+  justify-self: center;
+  align-self: center;
+}
+
+.smore{
+  padding: 10px;
+}
+
+.s5{
+  align-self: center;
+  justify-self: center;
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+
+.s6{
+  align-self: center;
+  justify-self: center;
+  grid-row: 1/2;
+  grid-column: 4/5;
+}
+
+
+footer{
+  background-color:#a408ff;
+  overflow:auto;
+}
+
+.container7{
+  display:grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.buttons{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 10px;
+
+}
+
+.button1{
+  margin: 10px;
+  text-decoration: none;
+  color:#a408ff;
+  background-color: fcf5ef;
+  font-family: poppins;
+  font-weight: bold;
+  border: none;
+  border-radius: 150px;
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.title1{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  font-family: poppins;
+  font-size: 40px;
+  font-style: italic;
+  color: white;
+}
+
+.title2{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  font-family: garamond;
+  font-size: 60px;
+  color: white;
+  font-style: italic;
+  margin-top: 80px;
+}
+
+.logomark{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  justify-self: center;
+}
+
+.icon-container{
+  grid-row: 1/2;
+  grid-column: 2/3;
+  margin-top: 17%;
+}
+
+.icon{
+  color:#fcf5ef;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.sub{
+  margin-top: 250px;
+  font-size: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  body {
+    overflow: scroll;
+    background-color: #fcf5ef;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 650px;
+    grid-template-rows: auto auto auto auto;
+  }
+  
+  .header {
+    grid-row: 2;
+    grid-column: 1;
+    justify-self: center;
+  }
+  
+  .image {
+    grid-row: 4;
+    grid-column: 1;
+    justify-self: center;
+    margin-top: -10%;
+  }
+  
+  .item {
+    font-family: garamond;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #a408ff;
+    display: none;
+  }
+  
+  .item1 {
+    grid-row: 3;
+    grid-column: 1;
+    justify-self: center;
+    margin-bottom: 20px;
+  }
+  
+  .item2 {
+    grid-row: 3;
+    grid-column: 1;
+    justify-self: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    text-decoration: none;
+    color: #a408ff;
+    font-family: poppins;
+    font-weight: bold;
+    border: solid;
+    border-radius: 150px;
+    cursor: pointer;
+  }
+  
+  .w,
+  .com,
+  .con {
+    padding: 5%;
+  }
+  
+  .container2 {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, minmax(1px, 20px));
+    grid-template-rows: auto;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .works,
+  .commissions,
+  .contact {
+    justify-self: center;
+  }
+  
+  .s1,
+  .s2 {
+    grid-row: 1;
+    justify-self: center;
+  }
+  
+  .container3 {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(50px, 5px));
+    grid-template-rows: auto 50px;
+    gap: 10px;
+  }
+  
+  .item3,
+  .item4 {
+    justify-self: center;
+  }
+  
+  .purple-line {
+    width: 100%;
+    border-top: 2px solid #a408ff;
+  }
+  
+  .container4 {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(50px, 4em));
+    gap: 10px;
+  }
+  
+  .title {
+    font-family: garamond;
+    font-size: 3em;
+    font-weight: lighter;
+    color: #a408ff;
+    margin: 0;
+  }
+  
+  .featured {
+    grid-column: 4;
+    justify-self: center;
+    align-self: center;
+  }
+  
+  .s3,
+  .s4 {
+    justify-self: center;
+    display:none;
+  }
+
+  
+  .container5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, auto);
+    gap: 10px;
+  }
+  
+  .subtitle {
+    font-family: garamond;
+    font-size: 40px;
+    color: #a408ff;
+    margin-top: 20px;
+  }
+  
+  .description {
+    font-family: poppins;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  
+  .logodesign,
+  .animation,
+  .ducks,
+  .cev,
+  .streamgraphics {
+    justify-self: center;
+  }
+  
+  .seemore {
+    justify-self: center;
+    align-self: center;
+  }
+  
+  .s5,
+  .s6 {
+    justify-self: center;
+  }
+  
+  footer{
+    background-color:#a408ff;
+    overflow:auto;
+  }
+  
+  .container16{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  
+  .buttons{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 5px;
+    display:none;
+  
+  }
+  
+  .button1{
+    margin: 10px;
+    text-decoration: none;
+    color:#a408ff;
+    background-color: fcf5ef;
+    font-family: poppins;
+    font-weight: bold;
+    border: none;
+    border-radius: 150px;
+    padding: 15px;
+    padding-left: 250px;
+    padding-right:250px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .title1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-family: poppins;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+  }
+  
+  .title2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-family: garamond;
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+    margin-top: 20%;
+  }
+  
+  .logomark{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+    width: 200px;
+  }
+  
+  .icon-container{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-top: -50%;
+  }
+  
+  .icon{
+    color:#fcf5ef;
+    margin: 10px;
+    font-size: 30px;
+  }
+  
+  .sub{
+    margin-top: 150px;
+    font-size: 20px;
+  }
+}  
